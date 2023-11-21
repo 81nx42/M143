@@ -34,12 +34,53 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 # Ordner erstellen wo Daten der Datenbank gespeichert werden
 
-mkdir minecraft_data
+mkdir minecraft_data 
+
 mkdir -p duplicati/appdata
+
 mkdir -p duplicati/backups
+
 mkdir -p duplicati/source
 
-# 
+# Docker Testen
+sudo docker compose up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Firewall Configuration
+
+-ufw
+
+-sudo ufw status$
+
+-sudo ufw allow http
+
+-sudo ufw allow https
+
+-sudo ufw allow ssh
+
+-sudo ufw allow 8090/tcp
+
+-sudo ufw enable 
+
 
 
 

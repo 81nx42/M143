@@ -21,6 +21,7 @@ services:
       - /home/ubuntu/duplicati/appdata/config:/config
       - /home/ubuntu/duplicati/backups:/backups
       - /home/ubuntu/duplicati/source:/source
+      - /home/ubuntu/minecraft_data:/minecraft_data
     ports:
       - 8200:8200
     restart: unless-stopped
