@@ -46,7 +46,10 @@ mkdir -p duplicati/source
 sudo docker compose up
 
 
+# Optionale Schritte
 
+Um zu testen ob es wirklich funktioniert hat, könnte ich jetz meinen minecraftserver aufsetzten.
+Dafür müsste ich Minecraft installieren und dann auf dem Client meinen Server verbinnden
 
 
 
