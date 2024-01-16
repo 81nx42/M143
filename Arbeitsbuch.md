@@ -25,7 +25,14 @@ docker = Docker soll auf der VM noch installiert werden
 
 # Docker 
 
-Bevor ich irgend etwas mit Docker wirkich anfange, wollte ich zuerst ein *sudo arp-get update* machen um alles ausgeführte zu aktuallisieren 
+Bevor ich irgend etwas mit Docker wirkich anfange, wollte ich zuerst ein *sudo arp-get update* machen um alles ausgeführte zu aktuallisieren um auf dem neusten Stand zu sein. 
+
+![Alt text](<Step 4 .png>)
+
+Nachdem alles aktuallisiert hat, installiere ich noch zusätzliche Paktete für Docker. Zum einen hol ich mir die benötigten Zertifikate und dazu noch die KEYS 
+*sudo apt*
+
+![Alt text](<Step 5,6.png>)
 
 
 
