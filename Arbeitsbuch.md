@@ -1,8 +1,14 @@
-# Konzept
+# Use-Case
+Die Firma TBZLight ist ein zukunftsorientiertes Unternehmen, erkennt die Notwendigkeit einer zuverlässigen und effizienten Backup Speicherung für das Management ihres firmeninternen Minecraft-Servers. Der Minecraft-Server spielt eine entscheidende Rolle als Plattform für kreative Zusammenarbeit und fördert die Teamkultur innerhalb der Firma. Im zusammenhang mit dem neuen Open workring space wird der Sever der Gruppenbildung weiter helfen. Angesichts dieser Bedeutung steht die Firma vor der Herausforderung, nicht nur die Ressourcen des Servers optimal zu nutzen, sondern auch vor unerwarteten Datenverlusten geschützt zu sein.
+
+Der Einsatz unseres speziellen Minecraft Server-Backup-Systems präsentiert sich als unverzichtbare Lösung für TechCraft Solutions
+
+
+## Umgebungs Visualisierung 
 
 ![Alt text](<Netzwerk Plan.png>)
 
-Der Inhalt meines auftrages besteht darin, einen Backup Server für meinen Minecraft Server zu erstellen. Das Konzept wird auf Multipass ausgeführt. Die Backupdaten, also der Minecraft Spielstand wird mittels Duplicati auf dem Mega.nz gespeichert. Docker habe ich als zusatz genommen, damit ich die Daten Redundant speichern kann und es nicht nur im .NZ ist. 
+Der Inhalt meines auftrages besteht darin, einen Backup Server für meinen Minecraft Server zu erstellen. Das Konzept wird auf Multipass ausgeführt. Die Backupdaten, also der Minecraft Spielstand wird mittels Duplicati auf dem Mega.nz gespeichert. Docker habe ich als zusatz genommen, damit ich die Daten Redundant speichern kann und es nicht nur im .NZ ist.
 
 ## VM via Multipass erstellen
 
@@ -175,4 +181,5 @@ Wie gut auf dem Bild zu erkennen ist, hat Duplicati automatisch die Spielinhalte
 
 ![Alt text](<Server Daten.png>)
 
-Auch habe ich dies noch In-game getestet. Ich habe in Minecraft einen Block gebaut. Danach habe ich mich aus und wieder eingeloggt um zu sehen ob er noch dort steht. Und ja er war noch da, was hies der Server hat ein Backup gemacht. 
+Auch habe ich dies noch In-game getestet. Ich habe in Minecraft einen Block gebaut. Danach habe ich mich aus und wieder eingeloggt um zu sehen ob er noch dort steht. Und ja er war noch da, was hies der Server hat ein Backup gemacht.
+
