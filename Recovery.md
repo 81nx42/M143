@@ -39,9 +39,10 @@ Wenn es danach so aussieht, hast du bis jetzt alles richtig gemacht.
 
 
 
-Um nun auf Duplicati zu kommen, führe Multipass Ls auf einem neuen Terminal aus und füge die Markierte IP wie vorgegeben in den Browser rein
+Um nun auf Duplicati zu kommen, führe Multipass Ls auf einem neuen Terminal aus und füge die Markierte IP wie vorgegeben in den Browser rein:
 
 *192.168.1.0:8200*
+
 ![Alt text](image-11.png)
 
 In Duplicati gehe zu "Wiederherstellen", wähle "Aus Konfiguration wiederherstellen" aus und füge die vorhin heruntergeladene .json.aes Datei ein.
