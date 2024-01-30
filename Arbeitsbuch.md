@@ -194,5 +194,5 @@ Auch habe ich dies noch In-game getestet. Ich habe in Minecraft einen Block geba
 
 ## Recovery Lösung
 
-Diesen Teil habe ich in diesem MD geschrieben. : [Title](Recovery.md) 
+Diesen Teil habe ich in diesem MD geschrieben. : [Recovery](Recovery.md) 
 
