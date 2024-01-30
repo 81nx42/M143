@@ -1,10 +1,10 @@
 # Recovery Einleitung
 
-Jetzt nachdem ich den Backup Teil erledigt habe, muss jetzt noch eine Recovery Mode hinzugefügt werden. Im falle eines Kompletten Datenverlustes, sollen die Daten Trotzdem noch gespeichert werden.
+Jetzt nachdem ich den Backup Teil erledigt habe, muss jetzt noch eine Recovery Mode hinzugefügt werden. Im falle eines Kompletten Datenverlustes, sollen die Daten Trotzdem noch gespeichert werden. \
 
-Kleine Basics zum starten
-Multipass shell (VM-Name) = Um VM zu starten
-Sudo docker compose up -d = Docker Starten
+Kleine Basics zum starten : \
+Multipass shell (VM-Name) = Um VM zu starten \
+Sudo docker compose up -d = Docker Starten \
 
 
 ## Zur durchführung
@@ -20,7 +20,7 @@ Danach Ladest du die .AES Datei herunter. Nun haben wir die benötigte Datei um 
 
 ## VM Erstellen
 
-Im diesem Teil des Prozesses werde ich eine neue VM erstellen. Wir gehen davon aus, dass alle unsere Daten und Backups gelöscht worden sind und wir somit bei Null beginnen müssen. Daher haben wir nun die Aufgabe eine Komplett neue VM einzurichten und sämtliche Konfigurationen von Grund auf neu aufbauen und sicheustellen, dass alle notwendigen Ressourcen und Einstellungen reibungslos laufen um eine Funktionalität zu gewährleisten.
+Im diesem Teil des Prozesses werde ich eine neue VM erstellen. Wir gehen davon aus, dass alle unsere Daten und Backups gelöscht worden sind und wir somit bei Null beginnen müssen. Daher haben wir nun die Aufgabe eine Komplett neue VM einzurichten und sämtliche Konfigurationen von Grund auf neu aufbauen und sicheustellen, dass alle notwendigen Ressourcen und Einstellungen reibungslos laufen um eine Funktionalität zu gewährleisten. \
 
 Meine VM nenne ich 143-recovery. so lautet der code um die VM zu erstellen:
 ```yaml
