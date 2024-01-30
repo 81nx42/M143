@@ -64,3 +64,6 @@ Im CMD scheit alles zu funktionieren wenn Docker gestartet wird. Die Minecraft W
 
 
 ![Alt text](image-16.png)
+
+Danach bin ich noch in Minecraft rein und hab mich mit der IP auf den Server verbunden. Tatsächlich habe ich meinen Spielstand noch, was heisst, das es Funktioniert hat. 
+![Alt text](image-17.png)
