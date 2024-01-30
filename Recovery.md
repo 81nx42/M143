@@ -29,6 +29,7 @@ Multipass launch -c4 -d 80G -m 4G -n m143-Recovery docker
 
 ![Alt text](image-8.png)
 
+Nach dem du deine VM gestartet Hast, nimm das docker-compose file von dem [Title](Arbeitsbuch.md) und füge es wieder im Nano Modus hinzu. 
 ![Alt text](image-9.png)
 
 Danach kannst du dein Docker Starten. 
