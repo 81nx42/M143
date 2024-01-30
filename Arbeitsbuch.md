@@ -1,7 +1,15 @@
 # Use-Case
-Die Firma TBZLight ist ein zukunftsorientiertes Unternehmen, erkennt die Notwendigkeit einer zuverlässigen und effizienten Backup Speicherung für das Management ihres firmeninternen Minecraft-Servers. Der Minecraft-Server spielt eine entscheidende Rolle als Plattform für kreative Zusammenarbeit und fördert die Teamkultur innerhalb der Firma. Im zusammenhang mit dem neuen Open workring space wird der Sever der Gruppenbildung weiter helfen. Angesichts dieser Bedeutung steht die Firma vor der Herausforderung, nicht nur die Ressourcen des Servers optimal zu nutzen, sondern auch vor unerwarteten Datenverlusten geschützt zu sein.
+In meinem Fall habe ich um meinen Minecraft Server zu Sichern, ein Vollbackup Konzept benutzt. Diese Methode war für mich die Logischte und zugleich effektivste lösung, da alle meine Daten von der Minecraft Welt unabhänging von Grösse oder SpeicherTyp gespeichert werden. Das heisst alle Daten werden gespeichert und ich muss mir keine Gedanken machen, dass Items in dem Spiel plötzlich gelöscht werden.
 
-Der Einsatz unseres speziellen Minecraft Server-Backup-Systems präsentiert sich als unverzichtbare Lösung für TechCraft Solutions
+
+Unteranderem halte ich das Wiederherstellungssystem von einem Vollbackup für schnell und effizient. Falls jemals Daten gelöscht werden oder es einen Systemabsturz gibt, kann ich mit wenig Aufwand alles wiederherstellen, ohne auf mehrere Inkremental- oder differentielle Backups angewiesen zu sein.
+
+Unteranderem Falls ich ein Grosses und Zeitaufwädiges Minecraft Projekt starte, kann ich durch das Vollbackup die Langzeitarchivierung meiner Daten Garantieren. 
+	
+
+Zusätzlich sollte ich Elemente aus der Gebührenverordnung für Maßnahmen im Bereich der öffentlichen Sicherheit und Ordnung (GebüV), dem Datenschutzgesetz und den BSI-IT-Grundschutz-Vorgaben. Dies hiess für mich, dass meine Backup-Strategie auch rechtlich im grünen berreich sein musste. Es ist wichtig sicherzustellen, dass personenbezogene Daten gemäß den Datenschutzbestimmungen geschützt sind. Dies war jedoch kein Problem für mich da ich keine Personenbezogenen Daten gespeichert habe. Trotzdem habe ich aus Sicherheitsgründen alle Backups mit AES verschlüsselt, dass nur Autohrisierte Personen Zugriff auf diese Daten haben. 
+
+
 
 
 ## Umgebungs Visualisierung 
@@ -182,4 +190,9 @@ Wie gut auf dem Bild zu erkennen ist, hat Duplicati automatisch die Spielinhalte
 ![Alt text](<Server Daten.png>)
 
 Auch habe ich dies noch In-game getestet. Ich habe in Minecraft einen Block gebaut. Danach habe ich mich aus und wieder eingeloggt um zu sehen ob er noch dort steht. Und ja er war noch da, was hies der Server hat ein Backup gemacht.
+
+
+## Recovery Lösung
+
+Diesen Teil habe ich in diesem MD geschrieben. : 
 

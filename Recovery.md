@@ -1,4 +1,4 @@
-## Recovery Einleitung
+# Recovery Einleitung
 
 Jetzt nachdem ich den Backup Teil erledigt habe, muss jetzt noch eine Recovery Mode hinzugefügt werden. Im falle eines Kompletten Datenverlustes, sollen die Daten Trotzdem noch gespeichert werden.
 
@@ -7,7 +7,7 @@ Multipass shell (VM-Name) = Um VM zu starten
 Sudo docker compose up -d = Docker Starten
 
 
-# Zur durchführung
+## Zur durchführung
 
 Als erstes habe ich alles nötige (Multipass shell, Docker) Gestartet und mich dann mit Duplicati verbuden.
 Danach Klappe bei deinem Minecraft Server die Optionen auf und wähle Exportieren. Danach habe ich mich für für "als Datei" exportieren entschieden. Dazu habe ich aus Sicherheits Gründen die Datei noch verschlüsselt (Haken anklicken)
